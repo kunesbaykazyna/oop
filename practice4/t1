@@ -1,0 +1,41 @@
+1) Класс — это чертеж (как работать), а интерфейс — контракт (что должно быть сделано). 
+Мы можем создавать объекты класса, а интерфейса — нет. 
+Чтобы наследовать класс, мы используем слово extends, а для интерфейса — implements.
+Интерфейс не может реализовать методы (только если они не default),
+по сути он содержит только сигнатуру метода.
+
+
+2) Да, интерфейс может иметь переменные.
+ Но они константные, с определенными модификаторами доступа, 
+ такими как: public, final, static.
+ 
+ 
+3) Да, класс может использовать несколько интерфейсов.
+ Это нужно, чтобы класс мог соответствовать сразу нескольким ролям. 
+ В Java класс может наследоваться только от одного родителя (extends), 
+ и использование интерфейсов — это единственный способ обойти это ограничение.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1) A class is a blueprint (how to work), while an interface is a contract (what should be done). 
+ We can create objects of a class, but not of an interface. 
+ To inherit a class, we use "extends", and for an interface, we use "implements".
+  An interface cannot implement methods unless they are "default"; essentially, 
+  it only contains method signatures.
+  
+2)Yes, an interface can have variables.
+ But they are constants with specific access modifiers: public, static, and final.
+ 
+3)Yes, a class can use several interfaces. 
+This is needed so a class can fit several roles at once. 
+In Java, a class can only inherit from one parent (extends),
+ and using interfaces is the only way to bypass this restriction.
